@@ -1,0 +1,50 @@
+p.header {
+    color: black ;
+    text-align: center;
+    font-size: 26px;
+    font-family: "Times New Roman", Times, serif;
+    }     
+    p.para{
+        color: black ;
+         text-align: left;
+        font-size: 16px;
+        font-family: "Times New Roman", Times, serif;
+        position: relative;
+        
+    } 
+    p.para1{
+        color: black ;
+         text-align: left;
+        font-size: 20px;
+        font-family: "Times New Roman", Times, serif;
+        position: relative;
+        left: 5px;
+
+    }
+   
+    #one{
+        float: none;
+        width: 80%;
+        
+    }
+    #two{ 
+        list-style: none;
+        margin: 20px 20px;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;
+    }
+    li:hover{background-color: #c2c9c9;}
+    b.line1:hover{background-color: bisque;}
+    body {
+                
+        background-image: url("../Picture/102.png");
+        background-repeat: no-repeat;         
+    
+    }
+    img.i1 {
+        position: relative;
+        top: -350px;
+        left: 1200px;  
+    }
+    .nen{}
