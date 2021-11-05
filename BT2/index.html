@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="../BT2/menu/includeHTML.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<style>
+    @keyframes head {
+            from {color: white;}
+            to {color: red;}
+            }
+    h3{text-align: center;}
+    #id1{width: 60%;}
+    #id2{width:40%}
+    p:hover{ color: #3061ff;}
+    #id3{background-color: lightskyblue;
+                 color: red;}
+
+</style>
+<body>
+    <div class="myClass" data-include-html="../BT2/menu/menu.html"></div>
+    <h3><b>Thông tin Sinh Viên Thực Hiện Bài Tập</b></h3>
+   
+    <div class= "container-fluid">
+        <div class= "row">
+           <div class ="col-md-2 " id="id1">
+             <p>  <p><b>Họ và Tên:</b>Võ Tiến Đạt</p>
+             <p><b>MSSV:</b>B1907001</p>
+             <p><b>Quê quán:</b>Sóc Trăng</p></p>
+             <p><b>Đang học tại:</b>Đại học Cần Thơ</p></p>
+             <p><b>Sở Thích:</b>Đọc sách,nghe nhạc,xem phim</p></p>
+             <p><b>Cảm nghĩ về môn học:</b>Khi học học phần KC326(Công nghệ IOT và Ứng dụng đã giúp em biết thêm kiến thức cơ bản về html,css,javascript để em có thể thiết kế đơn giản web</p></p>
+                                <!-- Button trigger modal -->
+                <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal"id="id3" style="animation:head ease 3s infinite;">
+                    Click me if you want  information
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">📢 Cám ơn vì bạn đã tin tưởng click vào </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        Khi bạn xem được nội dung này thì "Chúc bạn một ngày tốt lành có nhiều niềm vui trong cuộc sống"
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        \
+                        </div>
+                    </div>
+                    </div>
+        </div>                
+                </div>
+                <div class ="col-md-3 " id="id2">
+                    <img  class="i1" src= "https://dattienvo.github.io/KC326-BT/BT/Picture/1.gif"  alt="img1" width="150" height="150" />
+                </div>
+                </div>
+            </div>
+
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      
+ 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <div id="footer" data-include-html="../BT2/Footer/footerD.html"></div>
+    <script>includeHTML()</script>
+</body>
+</html>
