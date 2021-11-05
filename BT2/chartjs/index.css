@@ -83,6 +83,12 @@
 	flex: 1;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 4260da70e83e000d689d0d35d9ba67d7e5c3ea15
 body, html {
 	width: 100%;
 	height: 80%;
@@ -91,6 +97,7 @@ body, html {
 	margin-left: -300px;
 	opacity: 0;
 }
+<<<<<<< HEAD
 #do{
 	background-color: red;
 }
@@ -111,3 +118,5 @@ body, html {
 	background-color: blueviolet;
 }
 
+=======
+>>>>>>> 4260da70e83e000d689d0d35d9ba67d7e5c3ea15

@@ -68,10 +68,15 @@ for (const button of document.querySelectorAll('.buttonItem')) button.addEventLi
 for (const button of document.querySelectorAll('.chonMau-btn')) button.addEventListener('click', event => {
 	switch (event.target.id) {
 		case 'do': color = 'red'; break;
+<<<<<<< HEAD
 		case 'cam': color = 'orange'; break;
 		case 'vang': color = 'yellow'; break;
 		case 'luc': color = 'green'; break;
 		case 'luc': color = 'blue'; break;
+=======
+		case 'xanh': color = 'green'; break;
+		case 'vang': color = 'yellow'; break;
+>>>>>>> 4260da70e83e000d689d0d35d9ba67d7e5c3ea15
 		case 'tim':color='#990099';break;
 
 	}
